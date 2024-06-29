@@ -12,7 +12,7 @@ exports.id = "pages/index";
 exports.ids = ["pages/index"];
 exports.modules = {
 
-/***/ "./public/images/profile/profile-portfolio-pic-1.png":
+/***/ "./public/images/profile/profile-pic-3.png":
 /*!***********************************************************!*\
   !*** ./public/images/profile/profile-portfolio-pic-1.png ***!
   \***********************************************************/
