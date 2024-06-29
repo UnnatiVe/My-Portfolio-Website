@@ -60,11 +60,12 @@ const Experience = () => {
 />
 <Details
           
-          position= "participant" company="GoogleGirlHackathon"
+          position= "participant" company="Google Girl Hackathon"
           companyLink="www.google.com"
            time="2024" address="Online"
        
-           work="Participating in the Google Girl Hackathon was an enriching experience.During Round 2, there were two complex coding questions that further challenged my abilities. This experience not only sharpened my coding skills but also exposed me to competitive programming and innovative problem-solving techniques."
+           work="Participating in the Google Girl Hackathon was an enriching experience.During Round 2, there were two complex coding questions that further challenged my abilities.
+             This experience not only sharpened my coding skills but also exposed me to competitive programming and innovative problem-solving techniques."
        
        />
        <Details
