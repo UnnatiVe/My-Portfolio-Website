@@ -9,7 +9,7 @@ import {useInView,useMotionValue,useSpring} from 'framer-motion'
 import Experience from '@/components/Experience'
 import Education from '@/components/Education'
 import TransitionEffect from '@/components/TransitionEffect'
-const AnimatedNumbers = ({value,decimals=0}) => {
+const AnimatedNumbers = ({value}) => {
  const ref = useRef(null);
 
 const motionValue= useMotionValue(0);
@@ -25,10 +25,10 @@ useEffect(() =>{
  useEffect(() => {
  springValue.on("change",(latest) =>{
   if(ref.current && latest.toFixed(0) <= value){
-    ref.current.textContent = latest.toFixed(decimals);
+    ref.current.textContent = latest.toFixed();
   }
  })
- },[springValue,decimals])
+ },[springValue])
 
 
   return <span ref={ref}></span>
