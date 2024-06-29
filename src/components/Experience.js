@@ -70,7 +70,7 @@ const Experience = () => {
        />
        <Details
           
-          position= "participant" company="Hacktoberfest 2023"
+          position= "participant" company="Hacktober fest 2023"
           companyLink="https://hacktoberfest.digitalocean.com/"
            time="2023" address="Online"
        
