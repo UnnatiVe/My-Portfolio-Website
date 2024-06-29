@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Layout from '@/components/Layout'
 import HireMe from '@/components/HireMe'
-import profilePic from "../../public/images/profile/profile-portfolio-pic-1.png"
+import profilePic from "../../public/images/profile/profile-pic-3.png"
 import AnimatedText from '@/components/AnimatedText'
 import TransitionEffect from '@/components/TransitionEffect'
 import { LinkArrow } from '@/components/Icons'
