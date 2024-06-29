@@ -25,10 +25,10 @@ useEffect(() =>{
  useEffect(() => {
  springValue.on("change",(latest) =>{
   if(ref.current && latest.toFixed(0) <= value){
-    ref.current.textContent = latest.toFixed();
+    ref.current.textContent = latest.toFixed(0);
   }
  })
- },[springValue])
+ },[springValue,value])
 
 
   return <span ref={ref}></span>
